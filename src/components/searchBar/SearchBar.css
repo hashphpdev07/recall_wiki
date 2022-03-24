@@ -3,14 +3,16 @@
     display: flex;
 }
 .search-bar {
-    background-color: rgb(241, 241, 241);
+    background-color:#fff;
     width: 100%;
     height: 3rem;
     border: .1rem solid rgba(0,0,0,0.2);
     border-radius: 0.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1rem 2rem 1rem 2rem;
     margin: 2rem 0 0 0;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .search-bar:focus{

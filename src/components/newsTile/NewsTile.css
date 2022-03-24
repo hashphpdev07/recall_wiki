@@ -43,3 +43,10 @@
     width: 20rem;
     height: 20rem;
 }
+
+/* Responsive CSS */
+@media (max-width:767px) {
+    .news {
+        flex-direction: column-reverse;
+    }
+}
